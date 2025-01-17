@@ -17,7 +17,7 @@ namespace ComunicaationToServer.Methods;
 
             using (MySqlCommand cmd = conn.CreateCommand())
             {
-                cmd.CommandText = File.ReadAllText(@"C:\Visual Studio Projects\_NetProjects\C#\ComunicaationToServer\querys(sql)\MAIN.SQL");
+                cmd.CommandText = File.ReadAllText(@".\ComunicaationToServer\querys(sql)\MAIN.SQL");
 
                 cmd.ExecuteNonQuery();
             }
