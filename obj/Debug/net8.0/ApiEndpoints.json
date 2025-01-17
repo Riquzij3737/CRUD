@@ -1,0 +1,39 @@
+[
+  {
+    "ContainingType": "ComunicaationToServer.Controllers.Control1",
+    "Method": "Create",
+    "RelativePath": "Control1/MinhaAPI/create",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Nomes",
+        "Type": "System.String",
+        "IsRequired": false
+      },
+      {
+        "Name": "idade",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "System.Void",
+        "MediaTypes": [],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "ComunicaationToServer.Controllers.Control1",
+    "Method": "GetJson",
+    "RelativePath": "Control1/MinhaAPI/read",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]

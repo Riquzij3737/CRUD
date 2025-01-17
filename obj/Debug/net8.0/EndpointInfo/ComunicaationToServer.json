@@ -1,0 +1,51 @@
+{
+  "openapi": "3.0.1",
+  "info": {
+    "title": "ComunicaationToServer",
+    "version": "1.0"
+  },
+  "paths": {
+    "/Control1/MinhaAPI/read": {
+      "get": {
+        "tags": [
+          "Control1"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    },
+    "/Control1/MinhaAPI/create": {
+      "post": {
+        "tags": [
+          "Control1"
+        ],
+        "parameters": [
+          {
+            "name": "Nomes",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            }
+          },
+          {
+            "name": "idade",
+            "in": "query",
+            "schema": {
+              "type": "integer",
+              "format": "int32"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
+      }
+    }
+  },
+  "components": { }
+}

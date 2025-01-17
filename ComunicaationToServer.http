@@ -1,0 +1,6 @@
+@ComunicaationToServer_HostAddress = http://localhost:5240
+
+GET {{ComunicaationToServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
