@@ -1,4 +1,4 @@
-  using ComunicaationToServer.Controllers;
+using ComunicaationToServer.Controllers;
 using Microsoft.AspNetCore.Mvc;
 using MySql.Data.MySqlClient;
 using Newtonsoft.Json;
@@ -9,7 +9,7 @@ namespace ComunicaationToServer.Methods;
     {
         public MySqlConnection Save()
         {
-            string connstring = "Server=localhost;Port=3306;User Id=root;Password=Z7$J8v2mL@pQxW4tY#RkN9f6S!bG5A;";
+            string connstring = "Server=localhost;Port=3306;User Id=#Seu usuario#;Password=#Sua senha#;";
 
             MySqlConnection conn = new MySqlConnection(connstring);
 
